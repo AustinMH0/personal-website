@@ -27,9 +27,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+      - name: CD into directory where package.json is located
+        run: cd my-react-app
       - name: npm ci, build and test
         run: |
-          cd personal-website/my-react-app
           npm ci
           npm run build --if-present
           npm test
