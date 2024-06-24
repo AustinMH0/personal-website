@@ -29,7 +29,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: npm ci, build and test
         run: |
-          cd my-react-app
+          cd personal-website/my-react-app
           npm ci
           npm run build --if-present
           npm test
