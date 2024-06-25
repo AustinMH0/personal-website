@@ -37,7 +37,7 @@ jobs:
       run: |
         cd my-react-app
         ls
-        docker run austin-hendricks-website:latest
+        docker run austin-hendricks-website
   push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
