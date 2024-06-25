@@ -64,8 +64,6 @@ jobs:
         run: |
           cd my-react-app
           ls
-          docker run --rm -d  austinmh/austin-hendricks-website:latest
-
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
