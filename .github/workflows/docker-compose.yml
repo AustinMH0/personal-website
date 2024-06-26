@@ -20,12 +20,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Enter my-react-app directory
+    # - name: Enter my-react-app directory
+    #   run: |
+    #     cd my-react-app
+    #     ls
+    - name: Build the Docker image
       run: |
         cd my-react-app
         ls
-    - name: Build the Docker image
-      run: docker build -t austin-hendricks-website .
+        docker build -t austin-hendricks-website .
   test:
     runs-on: ubuntu-latest
     steps:
