@@ -34,7 +34,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Test the Docker image
-      run: docker run --rm -d austin-hendricks-website:latest
+      run: |
+        cd my-react-app
+        ls
+        docker run --rm -d austin-hendricks-website:latest
   push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
