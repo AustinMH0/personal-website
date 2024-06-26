@@ -43,6 +43,7 @@ jobs:
     steps:
       - name: Enter directory
         run: |
+          cd my-react-app
           ls
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
