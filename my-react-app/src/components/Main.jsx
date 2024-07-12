@@ -6,10 +6,11 @@ const Main = () => {
   return (
     <div id='main'>
         <img 
-        className='w-full h-screen object-cover object-left' 
+        className='w-full h-screen object-cover object-left rounded-b-md shadow-xl dark:shadow-gray-400' 
         src='/lava_background.jpg'
         alt='background image depicting lava blobs'>
         </img>
+        <div className='border-solid border-2 border-black blur-sm'/>
         <div className='w-full h-screen absolute top-0 left-0'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold text-stone-200'>I'm Austin Hendricks</h1>

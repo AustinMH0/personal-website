@@ -9,7 +9,7 @@ import React from "react";
 function App() {
 
   return (
-    <div className='bg-stone-950'>
+    <div className='bg-gradient-to-b from-black from-40% via-stone-950 via-65% to-[#2e0b2e]'>
       <Sidenav />
       <Main />
       <Work />
