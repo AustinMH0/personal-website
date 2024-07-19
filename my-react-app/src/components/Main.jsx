@@ -33,10 +33,10 @@ const Main = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[75px] w-full'>
-            <a href='https://www.instagram.com/renderloop_/'>
+            <a style={{display: "table-cell"}} target="_blank" href='https://www.instagram.com/renderloop_/'>
               <FaInstagram  className='cursor-pointer fill-white' size={20} />
             </a>
-            <a href='https://www.linkedin.com/'>
+            <a style={{display: "table-cell"}} target="_blank" href='https://www.linkedin.com/'>
               <FaLinkedinIn className='cursor-pointer fill-white' size={20} />
             </a>
           </div>

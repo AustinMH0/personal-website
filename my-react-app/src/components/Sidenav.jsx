@@ -3,14 +3,6 @@ import { AiOutlineHome, AiOutlineMenu, AiOutlineProject, AiOutlineMail } from 'r
 import { GrProjects } from 'react-icons/gr';
 import { BsPerson } from 'react-icons/bs';
 
-// function ResumeClick() {
-  
-//     let navigate = useNavigate(); 
-//     const routeChange = () =>{ 
-//       let path = `./resume.jsx`; 
-//       navigate(path);
-//     }
-
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
     const handleNav = () => {
@@ -68,19 +60,19 @@ const Sidenav = () => {
         }
         <div className='md:block hidden fixed top-[25%] z-10'>
             <div className='flex flex-col'>
-                <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='#main' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineHome size={20} />
                 </a>
-                <a href='#work' className='rounded-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='#work' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <GrProjects size={20} />
                 </a>
-                <a href='#projects' className='rounded-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='#projects' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineProject size={20} />
                 </a>
-                <a href='./resume/' className='rounded-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a style={{display: "table-cell"}} target="_blank" href='./resume/' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <BsPerson size={20} />
                 </a>
-                <a href='#contact' className='rounded-full shadow-lg bg-gray-100 shadow-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='#contact' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail size={20} />
                 </a>
             </div>
