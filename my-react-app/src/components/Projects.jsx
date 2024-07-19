@@ -15,9 +15,9 @@ const Projects = () => {
         </p>
         <div className='grid sm:grid-cols-2 gap-12 text-stone-300'>
             <ProjectItem img={VRcadeSuiteImg} title='VRcade Suite' stack='Unity, C#' />
-            <ProjectItem img={RecipeImg} title='Recipe Manager' stack='Python, Coverage.py, Github Actions, Docker' />
+            <ProjectItem img={RecipeImg} title='Recipe Manager' stack='Python, Coverage.py, Unittests, Github Actions, Docker' />
             <ProjectItem img={DrumsImg} title='VR Drums' stack='Unity, C#' />
-            <ProjectItem img={WebsiteImg} title='Portfolio Website' stack='React JS, Vite, S3, Cloudfront, Github Actions, Docker' />
+            <ProjectItem img={WebsiteImg} title='Portfolio Website' stack='React JS, Vite, Tailwind, S3, Cloudfront, Github Actions, Docker' />
         </div>
     </div>
   )
