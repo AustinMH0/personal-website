@@ -9,8 +9,8 @@ const ProjectItem = ({img, title, stack, link}) => {
                 {title}
             </h3>
             <p className='pb-4 pt-2 text-white text-center'>{stack}</p>
-            <a style={{display: "table-cell"}} target="_blank" href={link}>
-                <p className='text-center p-3  rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>
+            <a style={{display: 'inline'}} target="_blank" href={link}>
+                <p className='text-center p-2 rounded-lg bg-white text-stone-700 font-bold cursor-pointer text-lg'>
                   More Info
                 </p>
             </a>
