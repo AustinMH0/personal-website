@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import imgUrl from '../assets/lava_background.jpg'
 
@@ -32,12 +32,18 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[75px] w-full'>
+          <div className='flex justify-between pt-6 max-w-[200px] w-full'>
             <a style={{display: "table-cell"}} target="_blank" href='https://www.instagram.com/renderloop_/'>
               <FaInstagram  className='cursor-pointer fill-white' size={20} />
             </a>
             <a style={{display: "table-cell"}} target="_blank" href='https://www.linkedin.com/'>
               <FaLinkedinIn className='cursor-pointer fill-white' size={20} />
+            </a>
+            <a style={{display: "table-cell"}} target="_blank" href='https://github.com/AustinMH0'>
+              <FaGithub className='cursor-pointer fill-white' size={20} />
+            </a>
+            <a style={{display: "table-cell"}} target="_blank" href='./resume/'>
+              <p className='text-black font-bold bg-white rounded-md mb-1 pl-1 pr-1'>Resume</p>
             </a>
           </div>
         </div>

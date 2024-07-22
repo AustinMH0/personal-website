@@ -30,8 +30,8 @@ root.render(
     <ul className="list-className-type:disc;">
         <li>Trained in using grinders, belt sanders, files, and sandpaper for precise metal and wood shaping and finishing</li>
         <li>Trained in using bandsaws, hacksaws, and drill presses for precise cutting and drilling</li>
-        <li>Proficient in using calipers, rulers, and center punches for accurate measurement and layou</li>
-        <li>Proficient in maintaining safety standards, including the use of a dust mask and safety gea</li>
+        <li>Proficient in using calipers, rulers, and center punches for accurate measurement and layout</li>
+        <li>Proficient in maintaining safety standards, including the use of a dust mask and safety gear</li>
         <li className = "margin-bottom: .25in;">Experience in training coworkers to achieve higher levels of mastery to allow them to take on more
             complicated tasks</li>
     </ul>

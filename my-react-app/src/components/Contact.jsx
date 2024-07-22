@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <hr class="h-px my-8 bg-stone-200 border-1 rounded-lg dark:bg-stone-700"></hr>
+        <hr className="h-px my-8 bg-stone-200 border-1 rounded-lg dark:bg-stone-700"></hr>
         <h1 className='py-4 text-4xl font-bold text-justify text-[#cd56cf]'>
             Contact
         </h1>
@@ -45,7 +45,7 @@ const Contact = () => {
                     <textarea className='h-full w-full bg-stone-200 rounded-lg p-3 flex' rows='10' name='message'></textarea>
                 </div>
             </div>
-            <button className='bg-[#d45dd6] text-gray-200 mt-4 w-full p-4 rounded-lg bg-gradient-to-r from-[#db60eb] via-[#842491] to-[#db60eb] px-4 py-2 text-xl focus:ring ring-black ring-opacity-10 gradient element-to-rotate'>
+            <button className='bg-[#d45dd6] text-fuchsia-200 font-semibold mt-4 w-full p-4 rounded-lg bg-gradient-to-r from-[#4e2491] via-[#9f46ab] to-[#4e2491] px-4 py-2 text-xl focus:ring ring-black ring-opacity-10 gradient element-to-rotate'>
                 Send Message
             </button>
         </form>
