@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-Regular.woff2') format('woff2'),
+        url('./fonts/Spectral/Spectral-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-Bold.woff2') format('woff2'),
+        url('./fonts/Spectral/Spectral-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    background-color: grey;
+}
+
+body{
+    margin-left: 1in;
+    margin-right: 1in;
+    padding-bottom: 1in;
+    padding-left: .5in;
+    padding-right: .5in;
+    background-color: white;
+}
+
+.centered-header{
+    font-family: 'Spectral';
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.contact-info{
+    font-family: 'Spectral';
+    text-align: center;
+    padding-bottom: 15px;
+    margin: auto;
+    font-size: 15px;
+    color: black;
+}
+
+.sub-headers{
+    font-family: 'Spectral';
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+p{
+    font-family: 'Spectral';
+    font-size: 15px;
+    margin: auto;
+}
+
+.bullets{
+    padding-left: .5in;
+    padding-top: .25in;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: .15in;
+    height: 2px;
+    background-color: gray;
+}
