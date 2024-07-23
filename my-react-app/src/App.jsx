@@ -3,6 +3,7 @@ import Sidenav from './components/Sidenav';
 import Main from './components/Main';
 import Work from './components/Work';
 import Projects from './components/Projects';
+import ProjectDescription from './components/ProjectDescription';
 import Contact from './components/Contact';
 import GraphicDesign from './components/GraphicDesign';
 
@@ -16,6 +17,7 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
+      <ProjectDescription />
       <Projects />
       <GraphicDesign />
       <Contact />

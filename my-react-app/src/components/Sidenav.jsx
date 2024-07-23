@@ -34,7 +34,7 @@ const Sidenav = () => {
                         <span className='pl-4'>Work</span>
                     </a>
                     <a onClick={handleNav}
-                        href='#projects' 
+                        href='#projectdescription' 
                         className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <AiOutlineProject size={20} />
@@ -74,7 +74,7 @@ const Sidenav = () => {
                 <a href='#work' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <GrProjects size={20} />
                 </a>
-                <a href='#projects' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='#projectdescription' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineProject size={20} />
                 </a>
                 <a style={{display: "table-cell"}} target="_blank" href='./resume/' className='rounded-full shadow-sm bg-gray-100 shadow-pink-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
