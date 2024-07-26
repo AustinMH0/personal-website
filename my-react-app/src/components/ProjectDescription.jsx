@@ -64,11 +64,11 @@ const ProjectDescription = () => {
     <div id='projectdescription' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 rounded-xl'>
         <h1 className='text-4xl font-bold text-center text-[#c531c8]'>Projects</h1>
         {data.map((item, idx) => (
-            <ProjectItemDescription 
+            <ProjectItemDescription
             key={idx}  
             title={item.title} 
             description={item.description}
-            details={<ul className='list-disc pl-4'><li>{item.details}</li></ul>}/>
+            details={<ul className='list-disc pl-8'><li>{item.details}</li></ul>}/>
         ))}
     </div>    
   )
