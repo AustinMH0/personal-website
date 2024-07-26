@@ -12,30 +12,31 @@ const Sidenav = () => {
 
   return (
     <div>
-        <AiOutlineMenu 
+        <AiOutlineMenu
+        size={20}
         onClick={handleNav} 
-        className='absolute top-4 right-4 z-[99] fill-stone-300 md:hidden' 
+        className='absolute ri-lg top-4 right-4 z-[99] fill-white md:hidden' 
         />
         {
             nav ? (
-                <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
+                <div className='fixed w-full h-screen bg-black/75 flex flex-col justify-center items-center z-20'>
                     <a onClick={handleNav} 
                         href='#main' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#d4fcc3] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <AiOutlineHome size={20} />
                         <span className='pl-4'>Home</span>
                     </a>
                     <a onClick={handleNav}
                         href='#work' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#cafab5] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <GrProjects size={20} />
                         <span className='pl-4'>Work</span>
                     </a>
                     <a onClick={handleNav}
                         href='#projectdescription' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#cafab5] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <AiOutlineProject size={20} />
                         <span className='pl-4'>Projects</span>
@@ -43,21 +44,21 @@ const Sidenav = () => {
                     <a onClick={handleNav}
                         target="_blank"
                         href='./resume/' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#cafab5] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <BsPerson size={20} />
                         <span className='pl-4'>Resume</span>
                     </a>
                     <a onClick={handleNav}
                         href='#graphicdesign' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#cafab5] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <FaPaintBrush size={20} />
                         <span className='pl-4'>Graphic Design</span>
                     </a>
                     <a onClick={handleNav}
                         href='#contact' 
-                        className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                        className='w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gradient-to-r from-[#d4fcc3] via-[#c7fbb1] to-[#cafab5] gradient element-to-rotate shadow-green-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
                     >
                         <AiOutlineMail size={20} />
                         <span className='pl-4'>Contact</span>
