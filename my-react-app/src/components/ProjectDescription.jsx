@@ -62,7 +62,8 @@ const data = [
 const ProjectDescription = () => {
   return (
     <div id='projectdescription' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 rounded-xl'>
-        <h1 className='text-4xl font-bold text-center text-[#c531c8]'>Projects</h1>
+        <hr className="h-px my-8 bg-stone-200 border-1 rounded-lg dark:bg-stone-700"></hr>
+        <h1 className='text-4xl font-bold text-center text-[#c75bc9]'>Projects</h1>
         {data.map((item, idx) => (
             <ProjectItemDescription
             key={idx}  

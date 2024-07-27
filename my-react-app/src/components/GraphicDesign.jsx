@@ -6,7 +6,6 @@ import SpringMix24Img from '../assets/Spring24_Mix_Cover.png'
 import Spring24SetlistImg from '../assets/Spring24_Mix_Setlist.png'
 import TillDeathImg from '../assets/TDdUT.jpg'
 
-import ReactPlayer from 'react-player'
 
 const GraphicDesign = () => {
   return (
@@ -18,31 +17,26 @@ const GraphicDesign = () => {
         <p className='text-center italic text-stone-300 pb-8 py-4'>
             Presented is a collection of cover art I have designed for events and mixes in Photoshop.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="relative flex-col overflow-hidden items-center justify-center grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-                <img className="max-h-screen w-full rounded-lg" src={LavaImg} alt=""/>
+                <img className="flex-1 w-full max-h-screen object-cover rounded-lg shadow-md shadow-[#211721]" src={LavaImg} alt=""/>
             </div>
             <div>
-                <img className="h-auto max-w-full rounded-lg" src={CleanHouseImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={CleanHouseImg} alt=""/>
             </div>
             <div>
-                <img className="h-auto max-w-full rounded-lg" src={FullTurboImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={FullTurboImg} alt=""/>
             </div>
             <div>
-                <img className="h-auto max-w-full rounded-lg" src={TillDeathImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={TillDeathImg} alt=""/>
             </div>
             <div>
-                <img className="h-auto max-w-full rounded-lg" src={SpringMix24Img} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={SpringMix24Img} alt=""/>
             </div>
             <div>
-                <img className="h-auto max-w-full rounded-lg" src={Spring24SetlistImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={Spring24SetlistImg} alt=""/>
             </div>
         </div>
-        {/* <div className='bg-black'>
-            <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" style={{backgroundColor: "black"}}
-                src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/render_loop&color=c531c8&show_playcount=false">
-            </iframe>
-        </div> */}
 
         <div className='pt-8 overflow-hidden'>
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" className='rounded-lg opacity-85'
