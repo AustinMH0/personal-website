@@ -10,7 +10,6 @@ import TillDeathImg from '../assets/TDdUT.jpg'
 const GraphicDesign = () => {
   return (
     <div id='graphicdesign' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <hr className="h-px my-8 bg-stone-200 border-1 rounded-lg dark:bg-stone-700"></hr>
         <h1 className='py-2 text-4xl font-bold text-center text-[#d269d4]'>
             Graphic Design
         </h1>

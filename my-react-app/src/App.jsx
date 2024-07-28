@@ -17,8 +17,14 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
+      <div className='max-w-[1040px] m-auto mb-16 md:pl-20'>
+        <hr className='h-px my-8 bg-pink-300 border-1 rounded-2xl opacity-75 dark:bg-stone-700'></hr>
+      </div>
       <ProjectDescription />
       <Projects />
+      <div className='max-w-[1040px] m-auto md:pl-20'>
+        <hr className='h-px my-8 bg-pink-300 border-1 rounded-2xl opacity-75 dark:bg-stone-700'></hr>
+      </div>
       <GraphicDesign />
       <Contact />
     </div>
