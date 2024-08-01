@@ -20,58 +20,6 @@ html{
     background-color: grey;
 }
 
-body{
-    margin-left: 1in;
-    margin-right: 1in;
-    padding-bottom: 1in;
-    padding-left: .5in;
-    padding-right: .5in;
-    background-color: white;
-}
-
-.centered-header{
-    font-family: 'Spectral';
-    padding-top: 60px;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    color: black;
-}
-
-.contact-info{
-    font-family: 'Spectral';
-    text-align: center;
-    padding-bottom: 15px;
-    margin: auto;
-    font-size: 15px;
-    color: black;
-}
-
-.sub-headers{
-    font-family: 'Spectral';
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-    margin: auto;
-    padding-top: .25;
-    padding-bottom: .25;
-}
-
-p{
-    font-family: 'Spectral';
-    font-size: 15px;
-    margin: auto;
-}
-
-.bullets{
-    padding-left: .5in;
-    padding-top: .25in;
-}
-
-hr{
-    margin-top: 0;
-    margin-bottom: .15in;
-    height: 2px;
-    background-color: gray;
+*{
+    font-family: 'Spectral'
 }
