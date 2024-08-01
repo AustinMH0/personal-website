@@ -34,6 +34,7 @@ jobs:
       - name: Upload to S3
         uses: jakejarvis/s3-sync-action@master
         with:
+          context: ./my-react-app
           args: --acl public-read
         env:
           SOURCE_DIR: dist/
