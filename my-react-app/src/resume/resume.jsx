@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import "./styles.css";
 import "../index.css";
 
+// Resume
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -65,7 +67,6 @@ root.render(
         <p className='font-bold'>Technical Skills:<span className="font-normal"> AWS, C#, C++, Docker, Git and GitHub, GitHub Actions, Java, Linux, Python, React, Unity</span></p>  
         </div>
     </div>
-
 
   </React.StrictMode>,
 );
