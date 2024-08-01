@@ -5,6 +5,8 @@ import CleanHouseImg from '../assets/Clean_House.jpg'
 import SpringMix24Img from '../assets/Spring24_Mix_Cover.png'
 import Spring24SetlistImg from '../assets/Spring24_Mix_Setlist.png'
 import TillDeathImg from '../assets/TDdUT.jpg'
+import SummerMix24Img from '../assets/Summer_Mix_2024_Cover.jpg'
+import Summer24SetlistImg from '../assets/Summer_Mix_2024_Setlist.jpg'
 
 
 const GraphicDesign = () => {
@@ -34,6 +36,12 @@ const GraphicDesign = () => {
             </div>
             <div>
                 <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={Spring24SetlistImg} alt=""/>
+            </div>
+            <div>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={SummerMix24Img} alt=""/>
+            </div>
+            <div>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={Summer24SetlistImg} alt=""/>
             </div>
         </div>
 
