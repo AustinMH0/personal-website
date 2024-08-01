@@ -54,6 +54,8 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     margin: auto;
+    padding-top: .25;
+    padding-bottom: .25;
 }
 
 p{

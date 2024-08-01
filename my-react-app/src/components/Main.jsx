@@ -23,7 +23,7 @@ const Main = () => {
                 2000, 
                 'an Engineer',
                 2000,
-                'an Event Organizer',
+                'a Graphic Designer',
                 2000,
               ]}
               wrapper='div'
@@ -36,7 +36,7 @@ const Main = () => {
             <a style={{display: "table-cell"}} target="_blank" href='https://www.instagram.com/renderloop_/'>
               <FaInstagram  className='cursor-pointer fill-white' size={20} />
             </a>
-            <a style={{display: "table-cell"}} target="_blank" href='https://www.linkedin.com/'>
+            <a style={{display: "table-cell"}} target="_blank" href='https://www.linkedin.com/in/austin-hendricks-a57b5b103/'>
               <FaLinkedinIn className='cursor-pointer fill-white' size={20} />
             </a>
             <a style={{display: "table-cell"}} target="_blank" href='https://github.com/AustinMH0'>

@@ -16,15 +16,14 @@ root.render(
 
 
     <h1 className = "centered-header">Austin Hendricks</h1>
-    <p className = "contact-info">Reno, NV • austinmhendricks@gmail.com • +1 (775) 830-8364</p>
+    <p className = "contact-info">Reno, NV • austinmhendricks@gmail.com • <a href="https://austinhendricks.dev/">https://austinhendricks.dev/</a></p>
     <h3 className = "sub-headers">Education</h3>
     <hr />
     <p><b>University of Nevada, Reno</b> <span className = "float: right">December 2024 (Expected)</span></p>
     <p>Bachelor of Science, Computer Science & Engineering</p>
-    <p>Cumulative GPA: 3.5, Dean’s List 2023</p>
-    <p className = "margin-bottom: .25in;">Relevant Coursework: Data Structures, Programming Languages, Algorithms, Operating Systems, Software Engineering, Design
-        Patterns, Testing and DevOps</p>
-    <h3 className = "sub-headers">Work Experience</h3>
+    <p>Cumulative GPA: 3.5, Dean’s List Fall 2023, Dean’s List Spring 2024</p>
+    <p>Relevant Coursework: Data Structures, Programming Languages, Algorithms, Operating Systems, Software Engineering, Design Patterns, Testing and DevOps</p>
+    <h3 className = "sub-headers py-1 my-1">Work Experience</h3>
     <hr />
     <p><b>Town Cutler</b> - Knife Technician <span className = "float: right">January 2019 – March 2024</span></p>
     <ul className="list-className-type:disc;">
@@ -37,6 +36,15 @@ root.render(
     </ul>
     <h3 className = "sub-headers">Projects</h3>
     <hr />
+    <p><b>Portfolio Website</b> -
+        <a href="https://github.com/AustinMH0/personal-website"> GitHub Repository</a></p>
+    <ul className="list-className-type:disc;">
+        <li>Deployed as a static website using S3</li>
+        <li>Uses CloudFront to employ HTTPS for security</li>
+        <li>Points a custom DNS domain name to the CloudFront distribution using Amazon Route 53</li>
+        <li>Uses Vite, React, and Tailwind for the frontend</li>
+        <li>Uses GitHub Actions to build and push an image of the application to a Docker <a href="https://hub.docker.com/r/austinmh/austin-hendricks-website/tags">repository</a></li>
+    </ul>
     <p><b>VRcade Suite (Senior Project)</b> -
         <a href="https://github.com/LuisRamirezTorres/CS425-Senior-Project"> GitHub Repository</a></p>
     <ul className="list-className-type:disc;">
@@ -51,7 +59,7 @@ root.render(
             building and deployment of an application</li>
         <li>Uses Coverage.py for running the tests</li>
         <li>Uses GitHub Actions to automate the testing, building, and deployment of the application</li>
-        <li>Uses GitHub Actions to build and push an image of the application to a Docker repository</li>
+        <li>Uses GitHub Actions to build and push an image of the application to a Docker <a href="https://hub.docker.com/r/austinmh/cs333finalproject/tags">repository</a></li>
     </ul>
     <h3 className = "sub-headers">Additional</h3>
     <hr />

@@ -3,6 +3,7 @@ import Sidenav from './components/Sidenav';
 import Main from './components/Main';
 import Work from './components/Work';
 import Projects from './components/Projects';
+import ProjectDescription from './components/ProjectDescription';
 import Contact from './components/Contact';
 import GraphicDesign from './components/GraphicDesign';
 
@@ -16,7 +17,14 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
+      {/* <div className='max-w-[1040px] m-auto md:pl-20'>
+        <hr className='h-px my-8 bg-pink-300 border-1 rounded-2xl opacity-75 dark:bg-stone-700'></hr>
+      </div> */}
+      <ProjectDescription />
       <Projects />
+      {/* <div className='max-w-[1040px] m-auto md:pl-20'>
+        <hr className='h-px my-8 bg-pink-300 border-1 rounded-2xl opacity-75 dark:bg-stone-700'></hr>
+      </div> */}
       <GraphicDesign />
       <Contact />
     </div>
