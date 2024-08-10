@@ -46,7 +46,7 @@ const GraphicDesign = () => {
         </div>
 
         <div className='pt-8 overflow-hidden'>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" className='rounded-lg opacity-85'
+            <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" className='rounded-lg opacity-85'
                 src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/render_loop&color=c531c8&show_playcount=false">
             </iframe>          
         </div>

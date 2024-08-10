@@ -27,6 +27,7 @@ const WebsiteDetails = [
   'Uses CloudFront to employ HTTPS for security',
   'Points a custom DNS domain name to the CloudFront distribution using Amazon Route 53',
   'Uses Vite, React, and Tailwind for the frontend',
+  'Tracks visitor count using a REST API, triggering a Lambda function to increment the count within a DynamoDB table',
 ];
 
 function Details(items) {
