@@ -9,5 +9,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="main.jsx"></script>
+    <script>
+      fetch('https://aw5zlq7hs4.execute-api.us-west-1.amazonaws.com/VisitorCountAPI/VisitorCountDDBManager') 
+        .then(response => response.json())
+        .then((data) => {
+        document.getElementById('visitor_counter').innerText = data.Count
+        })
+    </script>
   </body>
 </html>

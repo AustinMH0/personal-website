@@ -14,8 +14,8 @@ const Main = () => {
         <div className='border-solid border-2 border-black blur-sm'/>
         <div className='w-full h-screen absolute top-0 left-0'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-stone-200'>I'm Austin Hendricks</h1>
-          <h2 className='flex sm:text-3xl text-2xl pt-4 text-stone-200'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-stone-200'>Austin Hendricks</h1>
+          {/* <h2 className='flex sm:text-3xl text-2xl pt-4 text-stone-200'>
             I'm 
             <TypeAnimation
               sequence={[
@@ -31,7 +31,7 @@ const Main = () => {
               style={{ fontSize: '1em', paddingLeft: '5px' }}
               repeat={Infinity}
             />
-          </h2>
+          </h2> */}
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
             <a style={{display: "table-cell"}} target="_blank" href='https://www.instagram.com/renderloop_/'>
               <FaInstagram  className='cursor-pointer fill-white' size={20} />
@@ -46,8 +46,10 @@ const Main = () => {
               <p className='text-black font-bold bg-white rounded-md mb-1 pl-1 pr-1'>Resume</p>
             </a>
           </div>
+          <div className='justify-center italic text-stone-200 pt-4 sm:flex-col sm:justify-center sm:items-center'>
+            <p><span className='text-[#c75bc9]'>Visitor Count: </span><span className='text-[#5bdc50]' id='visitor_counter' /></p>
+          </div>
         </div>
-
         </div>
     </div>
   )
