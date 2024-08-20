@@ -5,11 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Austin Hendricks</title>
-    <script type="module" crossorigin src="/assets/main-WtILLxvd.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/client-DD4c7S6m.js">
-    <link rel="stylesheet" crossorigin href="/assets/main-Yy3L114E.css">
+    <script type="module" crossorigin src="/assets/main-GD938EVR.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/index-DoIn6-Sw.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DZfzWOBC.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      fetch('https://aw5zlq7hs4.execute-api.us-west-1.amazonaws.com/VisitorCountAPI/VisitorCountDDBManager') 
+        .then(response => response.json())
+        .then((data) => {
+        document.getElementById('visitor_counter').innerText = data.Count
+        })
+    </script>
   </body>
 </html>
