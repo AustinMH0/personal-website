@@ -4,7 +4,7 @@ version = 0.1
 
 [default]
 [default.global.parameters]
-stack_name = ${{ secrets.STACK_NAME }}
+stack_name = "website-infrastructure"
 
 [default.build.parameters]
 cached = true
@@ -15,11 +15,9 @@ lint = true
 
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
-stack_name = ${{ secrets.STACK_NAME }}
-s3_bucket = ${{ secrets.AWS_S3_BUCKET }}
+stack_name = "website-infrastructure"
 confirm_changeset = true
-s3_prefix = ${{ secrets.STACK_NAME }}
-region = ${{ secrets.AWS_REGION }}
+s3_prefix = "website-infrastructure"
 parameter_overrides = "ExistingTable=\"site-count\""
 image_repositories = []
 
