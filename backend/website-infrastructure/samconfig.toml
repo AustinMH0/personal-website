@@ -23,7 +23,6 @@ parameter_overrides = "ExistingTable=\"site-count\""
 image_repositories = []
 
 [default.package.parameters]
-resolve_s3 = true
 
 [default.sync.parameters]
 watch = true
