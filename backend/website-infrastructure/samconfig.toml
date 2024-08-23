@@ -16,7 +16,6 @@ lint = true
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
-resolve_s3 = true
 s3_prefix = "website-infrastructure"
 region = "us-west-1"
 parameter_overrides = "ExistingTable=\"site-count\""
