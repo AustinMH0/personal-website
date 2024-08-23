@@ -10,7 +10,7 @@
     <div id="root"></div>
     <script type="module" src="main.jsx"></script>
     <script>
-      fetch('https://aw5zlq7hs4.execute-api.us-west-1.amazonaws.com/VisitorCountAPI/VisitorCountDDBManager') 
+      fetch('https://2vbjkdhos3.execute-api.us-west-1.amazonaws.com/Prod/counter') 
         .then(response => response.json())
         .then((data) => {
         document.getElementById('visitor_counter').innerText = data.Count

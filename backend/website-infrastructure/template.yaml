@@ -1,0 +1,48 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  website-infrastructure
+
+  Deploying API resources: the DynamoDB table, the API Gateway, the Lambda function using SAM
+
+
+Globals:
+  Function:
+    Timeout: 3
+    MemorySize: 128
+  Api:
+    Cors:
+      AllowMethods: "'GET,POST,OPTIONS'"
+      AllowHeaders: "'content-type'"
+      AllowOrigin: "'*'"
+
+Parameters:
+  ExistingTable:
+    Type: String
+    Default: site-count
+    Description: (Required) The name of existing DynamoDB
+    MinLength: 3
+    MaxLength: 50
+    AllowedPattern: ^[A-Za-z_-]+$
+    ConstraintDescription: "Required. Can be characters, hyphen, and underscore only. No numbers or special characters allowed."
+
+Resources:
+  CounterFunction:
+    Type: AWS::Serverless::Function # Signifies this will create a Lambda; More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      FunctionName: "visitor_count"
+      CodeUri: counter/
+      Handler: app.lambda_handler
+      Runtime: python3.12
+      Policies: 
+        - DynamoDBCrudPolicy:
+            TableName: 
+              !Ref ExistingTable
+      Architectures:
+        - x86_64
+      Events:
+        IncrementCounter:
+          Type: Api # Signifies this will create an API Gateway;  More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /counter
+            Method: get
