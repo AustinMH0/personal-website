@@ -7,7 +7,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./backend
+    working-directory: ./backend/website-infrastructure
 
 jobs:
   build-deploy:
