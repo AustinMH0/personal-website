@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkItem from './WorkItem';
+import imgUrl from '../assets/Untitled-2.png'
 
 const dataDetails = [
   'Trained in using belt grinders, disk grinders, files, and sandpaper for precise metal and wood shaping and finishing',

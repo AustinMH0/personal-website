@@ -3,7 +3,7 @@ import Accordion from './Accordion';
 
 const ProjectItemDescription = ({title, description, details}) => {
   return (
-    <div className='p-4 bg-black rounded-lg'>
+    <div className='p-4 bg-[#0a080a] rounded-lg'>
       <Accordion 
         title= {title}
         description={description}

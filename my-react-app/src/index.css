@@ -3,6 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        background: url(Untitled-2.png);
+
+        /* height: 100vh;
+        background: 
+        repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
+        repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 60% 60%/2500px 2500px,
+         linear-gradient(red, transparent), 
+         linear-gradient(to top left, blue, transparent), 
+         linear-gradient(to top right, rgb(124, 211, 134), transparent);
+        background-blend-mode: overlay, screen, screen; */
+
+        /* width: 250px; */
+        /* height: 100vh;
+        filter: contrast(170%) brightness(750%);
+        background: 
+          radial-gradient(circle at 50% 50%, rgba(39,23,44,1), rgba(25,19,27,1)),
+          url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.17' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+          background-blend-mode: overlay, screen, screen; */
+      }
     @font-face {
       font-family: 'Spectral';
       font-style: normal;
