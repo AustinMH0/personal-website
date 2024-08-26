@@ -40,11 +40,11 @@ const Accordion = ({title, description, details}) => {
             </button>
             <div className={`${
                 accordionOpen
-                ? 'mr-12 rounded-lg bg-gradient-to-r from-[#0a080a] from-5% via-[#EB60B1] via-15% to-[#0a080a] to-75% gradient element-to-rotate p-0.5'
-                : 'bg-[#0a080a]'
+                ? 'mr-12 rounded-lg bg-gradient-to-r from-[#221526] from-5% via-[#EB60B1] via-15% to-[#221526] to-75% gradient element-to-rotate p-0.5'
+                : 'bg-transparent'
 
             }`}>
-                <div className={`grid overflow-hidden transition-all duration-300 ease-in-out bg-gradient-to-r from-[#170912e7] from-40% to-[#0a080ae7] rounded-lg text-gray-200 py-2 text-sm ${
+                <div className={`grid overflow-hidden transition-all duration-300 ease-in-out bg-gradient-to-r from-[#37223de7] from-40% to-[#221526e7] rounded-lg text-gray-200 py-2 text-sm ${
                     accordionOpen 
                     ? 'grid-rows-[1fr] opacity-100' 
                     : 'grid-rows-[0fr] opacity-0'
