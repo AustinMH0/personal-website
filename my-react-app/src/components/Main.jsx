@@ -5,13 +5,13 @@ import imgUrl from '../assets/lava_background.jpg'
 
 const Main = () => {
   return (
-    <div id='main' className='bg-[#020102]'>
+    <div id='main' className='bg-[#27172c]'>
         <img 
-          className='w-full h-screen object-cover object-left rounded-b-lg shadow-xl shadow-[#020102]' 
+          className='w-full h-screen object-cover object-left rounded-b-lg shadow-xl shadow-[#1e0f23]' 
           src={imgUrl} 
           alt='background image depicting lava blobs'
         />
-        <div className='border-solid border-2 blur-sm border-[#020102]'/>
+        {/* <div className=' border-solid border-0 blur-sm border-[#1e0f23] shadow-sm shadow-[#1e0f23]'/> */}
         <div className='w-full h-screen absolute top-0 left-0'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold text-stone-200'>Austin Hendricks</h1>

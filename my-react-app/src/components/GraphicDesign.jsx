@@ -20,28 +20,28 @@ const GraphicDesign = () => {
         </p>
         <div className="relative flex-col overflow-hidden items-center justify-center grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-                <img className="flex-1 w-full max-h-screen object-cover rounded-lg shadow-md shadow-[#211721]" src={LavaImg} alt=""/>
+                <img className="flex-1 w-full max-h-screen object-cover rounded-lg shadow-md shadow-[#27172c]" src={LavaImg} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={CleanHouseImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={CleanHouseImg} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={FullTurboImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={FullTurboImg} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={TillDeathImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={TillDeathImg} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={SpringMix24Img} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={SpringMix24Img} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={Spring24SetlistImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={Spring24SetlistImg} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={SummerMix24Img} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={SummerMix24Img} alt=""/>
             </div>
             <div>
-                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#211721]" src={Summer24SetlistImg} alt=""/>
+                <img className="flex-1 w-full h-full object-cover rounded-lg shadow-md shadow-[#27172c]" src={Summer24SetlistImg} alt=""/>
             </div>
         </div>
 
