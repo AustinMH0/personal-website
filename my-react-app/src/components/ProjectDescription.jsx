@@ -28,6 +28,8 @@ const WebsiteDetails = [
   'Points a custom DNS domain name to the CloudFront distribution using Amazon Route 53',
   'Uses Vite, React, and Tailwind for the frontend',
   'Tracks visitor count using a REST API, triggering a Lambda function to increment the count within a DynamoDB table',
+  'Runs an E2E using Cypress that compares the visitor count value on the website against the value within the database',
+  'Utilizes CI/CD using SAM and Github Actions to build and deploy backend'
 ];
 
 function Details(items) {
@@ -38,6 +40,11 @@ function Details(items) {
 }
 
 const data = [
+    {
+        title: 'Portfolio Website',
+        description: 'A personal website to showcase my school, work, and personal projects. This website is deployed as an Amazon S3 static website.',
+        details: Details(WebsiteDetails)
+    },
     {
         title: 'VRcade Suite (Senior Project)',
         description: 'VRcade Suite is a suite of arcade games bult in Unity that uses the Leap Motion Controller 2 and the Ultraleap API. The Leap Motion Controller takes hand gestures as input allowing the player to interact with objects and play games as if they were at an arcade. Contrary to the title, this game is somewhere between VR and AR and does not employ a VR headset. Games include Darts, Skeeball, and Hoops',
@@ -52,11 +59,6 @@ const data = [
         title: 'VR Drums',
         description: 'Final project for Virtual Reality at UNR. We had roughly two weeks to create a game in Unity that is designed to help people. VR Drums is a simple drum simulator and acts as a guide on learning basic drum patterns',
         details: Details(DrumDetails)
-    },
-    {
-        title: 'Portfolio Website',
-        description: 'A personal website to showcase my school, work, and personal projects. This website is deployed as an Amazon S3 static website.',
-        details: Details(WebsiteDetails)
     },
 ]
 

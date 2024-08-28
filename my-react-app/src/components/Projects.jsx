@@ -10,10 +10,10 @@ const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
         <div className='grid sm:grid-cols-2 gap-12 text-stone-300'>
+            <ProjectItem img={WebsiteImg} link='https://github.com/AustinMH0/personal-website' title='Portfolio Website' stack='React JS, Vite, Tailwind, S3, Cloudfront, Lambda, SAM, Cypress, Github Actions, Docker' />
             <ProjectItem img={VRcadeSuiteImg} link='https://github.com/LuisRamirezTorres/CS425-Senior-Project' title='VRcade Suite' stack='Unity, C#' />
             <ProjectItem img={RecipeImg} link='https://github.com/AustinMH0/CS333-Final-Project' title='Recipe Manager' stack='Python, Coverage.py, Unittests, Github Actions, Docker' />
             <ProjectItem img={DrumsImg} link='https://github.com/AustinMH0/CS484-Final-Project' title='VR Drums' stack='Unity, C#' />
-            <ProjectItem img={WebsiteImg} link='https://github.com/AustinMH0/personal-website' title='Portfolio Website' stack='React JS, Vite, Tailwind, S3, Cloudfront, Github Actions, Docker' />
         </div>
     </div>
   )

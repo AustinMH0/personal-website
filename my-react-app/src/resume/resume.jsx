@@ -45,6 +45,8 @@ root.render(
                 <li>Uses Vite, React, and Tailwind for the frontend</li>
                 <li>Uses GitHub Actions to build and push an image of the application to a Docker <a href="https://hub.docker.com/r/austinmh/austin-hendricks-website/tags" className="underline">repository</a></li>
                 <li>Tracks visitor count using a REST API, triggering a Lambda function to increment the count within a DynamoDB table</li>
+                <li>Runs an E2E using Cypress that compares the visitor count value on the website against the value within the database</li>
+                <li>Utilizes CI/CD using SAM and Github Actions to build and deploy backend</li>
             </ul>
             <p className='font-bold pt-2'>VRcade Suite (Senior Project) -
                 <a href="https://github.com/LuisRamirezTorres/CS425-Senior-Project"><span className="font-normal underline"> GitHub Repository</span></a></p>
